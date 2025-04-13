@@ -40,9 +40,4 @@ The dataset used in this project is the **WHO COVID-19 Dataset**, which includes
 4. **Summary Statistics** – Display basic statistical summaries of cleaned data.
 5. **Initial Analysis** – Understand key metrics such as death rate, recovery rate, and overall country-level comparisons.
 
----
 
-## **How to Use**
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/who-covid19-data-cleaning.git
