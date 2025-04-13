@@ -1,83 +1,43 @@
-🧹 Data Cleaning on WHO COVID-19 Dataset
-📌 Project Overview
-This project focuses on data cleaning and preprocessing of the World Health Organization (WHO) COVID-19 dataset, which contains real-world data related to global COVID-19 statistics. The dataset includes country-wise information on total cases, deaths, recoveries, and more.
+Data Cleaning on WHO COVID-19 Dataset
+Project Overview
+This project focuses on Data Cleaning and Preprocessing of the World Health Organization (WHO) COVID-19 dataset, a real-world dataset that includes country-wise COVID-19 statistics. The dataset contains data such as total confirmed cases, deaths, recoveries, active cases, and more. The goal is to handle missing values, remove duplicates, fix inconsistencies, and prepare the data for future analysis or modeling.
 
-The objective is to transform the raw dataset into a clean and structured format suitable for data analysis or machine learning tasks by handling missing values, removing duplicates, fixing inconsistencies, and encoding categorical data.
+Key Objectives:
+Data Cleaning: Identify and handle missing values, remove duplicates, and correct inconsistent or incorrect entries.
 
-🎯 Key Objectives
-Data Cleaning:
+Preprocessing: Convert categorical variables into numerical ones, standardize data formats, and prepare the dataset for downstream tasks.
 
-Remove duplicates
+Exploratory Overview: Generate basic statistics and visual summaries to understand the overall structure of the cleaned dataset.
 
-Handle missing values appropriately
+Insight Extraction: Identify key metrics and patterns relevant to pandemic trends like death rate, recovery rate, or cases per population.
 
-Correct inconsistent data entries (e.g., formatting issues)
-
-Preprocessing:
-
-Convert categorical variables into numerical formats
-
-Normalize and format date/time fields if applicable
-
-Prepare the dataset for downstream tasks like EDA or ML modeling
-
-Insight Extraction:
-
-Generate basic statistics and summary of cleaned data
-
-Identify any unusual patterns, trends, or outliers in the dataset
-
-🛠️ Technologies Used
+Technologies Used
 Python
 
-Pandas – For data cleaning and manipulation
+Pandas: For data manipulation and handling missing data.
 
-NumPy – For numerical computations
+NumPy: For numerical operations and data standardization.
 
-Jupyter Notebook – For interactive data cleaning and exploration
+Jupyter Notebook: For documenting the cleaning and analysis process.
 
-📊 Dataset
-The dataset used is the World Health Organization (WHO) COVID-19 Dataset, which includes country-level information such as:
+Dataset
+The dataset used for this project is the WHO COVID-19 Dataset, which provides country-level data on pandemic-related metrics. The dataset includes columns such as:
 
-Total confirmed cases
+Country: Name of the country.
 
-Total deaths
+Total Cases, Total Deaths, Total Recovered, Active Cases.
 
-Total recovered
+Population, Death Rate, Recovery Rate, Serious/Critical.
 
-Active cases
+Cases per Million, Deaths per Million, and more.
 
-Population
+Steps Involved
+Data Loading: Load the WHO COVID-19 dataset and explore its basic structure.
 
-Death rate, recovery rate, and more
+Data Cleaning: Remove duplicates, fill or drop missing values, and fix inconsistencies.
 
-✅ Dataset Source: World Health Organization COVID-19 Data
+Data Preprocessing: Encode categorical data, correct column formats, and clean irrelevant or malformed data entries.
 
-📋 Steps Involved
-Data Loading:
+Descriptive Statistics: Calculate summary statistics for key numerical features.
 
-Import the dataset using Pandas
-
-Explore dataset structure and basic information
-
-Data Cleaning:
-
-Drop duplicate rows
-
-Handle missing values using appropriate methods (mean, median, mode, or removal)
-
-Clean column names and correct formatting issues
-
-Preprocessing:
-
-Encode categorical variables (if any)
-
-Normalize numerical values (optional)
-
-Prepare cleaned dataset for analysis
-
-Basic Analysis:
-
-Generate summary statistics
-
-Identify data distribution and potential outliers
+Basic Analysis: Use groupings and metrics like mean, median, or ratios to understand global COVID-19 impact.
